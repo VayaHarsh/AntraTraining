@@ -1,0 +1,61 @@
+h2{
+    color: green;
+    text-align: center;
+}
+footer{
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+  body {
+    background-color: white;
+    color: blue;
+  }
+  .button {
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  .box {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 1em;
+    border: 5inch;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .box2 {
+    align: right;
+    width: 200px;
+    height: 100 px;
+    border-radius: 5px;
+    padding: 1em;
+    border: 5inch;
+    border-style: solid;
+    border-color: black;
+    background-color: lightblue;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: grey;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+  }
+  

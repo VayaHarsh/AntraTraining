@@ -1,0 +1,49 @@
+
+header{
+    text-align: right ;
+    height: 50px;
+    background-color: blue;
+    color: white;
+}
+  body {
+    background-color: beige;
+    color: blue;
+  }
+  .button {
+    background-color: orange; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;  
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .box {
+    width: 380px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 1em;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+  }
+
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: lightblue;
+    border: 1px solid white;
+  }
+  
+
+
+
+  

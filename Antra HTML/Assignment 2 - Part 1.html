@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+.dropbtn {
+    background-color: lightblue;
+    color: black;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+  </style>
+  </head>
+  
+  <body>
+
+    <div class="navbar">
+        <a href="https://antra.com"> <img src="https://antra.com/wp-content/uploads/2021/02/2021-02-18-2.png" width="250px" alt="Antra Logo" /></a>
+        <a href="https://www.bbc.com/news/world-africa-62476405">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">About the University
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="https://antra.com/business-advisory-services/">Business</a>
+            <a href="https://antra.com/technology-services/">Technology</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn">Training Courses
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="https://antra.com/technology-resources/">Resources</a>
+              <a href="https://antra.com/white-papers/">Papers</a>
+              <a href="https://antra.com/case-studies/">Case</a>
+            </div>
+          </div> 
+          <a href="https://antra.com/about-us/">About Us</a>
+          <a href="https://antra.com/job-opportunities/">Jobs</a>
+          <a href="https://antra.com/contact/">Contact Us</a>
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">Go!</button>
+      </div>
+  </body>
+  </html>
